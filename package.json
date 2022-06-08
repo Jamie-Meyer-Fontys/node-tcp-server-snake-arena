@@ -1,0 +1,19 @@
+{
+  "name": "tcp-server-snake-arena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "npm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamie-Meyer-Fontys/node-tcp-server-snake-arena.git"
+  },
+  "author": "Jamie Meyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamie-Meyer-Fontys/node-tcp-server-snake-arena/issues"
+  },
+  "homepage": "https://github.com/Jamie-Meyer-Fontys/node-tcp-server-snake-arena#readme"
+}
