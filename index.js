@@ -2,7 +2,6 @@
 const net = require('net');
 // The port on which the server is listening.
 const port = 4040;
-
 // Use net.createServer() in your code. This is just for illustration purpose.
 // Create a new TCP server.
 const server = new net.Server();
@@ -23,7 +22,7 @@ server.on('connection', function (socket) {
 
     // The server can also receive data from the client by reading from its socket.
     socket.on('data', function (chunk) {
-        console.log(`Data received from client: ${chunk.toString()}`);
+        console.log(`Data received from client: ${chunk.toString()} `);
     });
 
     // When the client requests to end the TCP connection with the server, the server
